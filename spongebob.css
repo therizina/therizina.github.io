@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.top {
+    background: white;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.topbar {
+    background: #5c1e91;
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
+
+.topbar h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+
+.sponge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.sponge img {
+    width: 160px;
+}
+
+.spongeinfo {
+    max-width: 450px;
+    text-align: left;
+}
+
+
+.extrachars {
+    margin-bottom: 70px;
+}
+
+.theguys {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.theguys img {
+    width: 70px;
+}
+
+
+.schedule {
+    margin-bottom: 80px;
+}
+
+.schedcard {
+    background: white;
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.schedcard img {
+    width: 70px;
+}
+
+
+.merch {
+    margin-bottom: 80px;
+}
+
+.merchbar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 420px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.footer {
+    background: #5c1e91;
+    color: white;
+    padding: 50px 0;
+}
+
+.footerstuff {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    text-align: left;
+}
+
+.footerthing h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footerthing p {
+    margin: 6px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footerthing p:hover {
+    text-decoration: underline;
+}
